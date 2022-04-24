@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="General.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+    <title>Desarrollo en Frontend</title>
+</head>
+
+<body>
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><img src="imagenes/Title.jpg" alt="" width="50" height="40" class="d-inline-block align-text-top" /></li>
+          <li><a href="index.html">Principal</a></li>
+          <li><a class='dropdown-arrow'>Programación</a>
+            <ul class='sub-menus'>
+              <li><a href="programacion.html">Que es Programación</a></li>
+              <li><a href='lenguajes.html'>Lenguajes</a></li>
+              <li><a href='POO.html'>Programacion P.O.O</a></li>
+              <li><a href='InteligenciaArtificial.html'>Inteligencia artificial</a></li>
+            </ul>
+          </li>
+          <li><a href='Libros.html'>Libros</a></li>
+          <li><a class='dropdown-arrow'>Tutoriales o Cursos</a>
+            <ul class='sub-menus'>
+              <li><a href='phyton.html'>Python</a></li>
+              <li><a href='java.html'>Java</a></li>
+              <li><a href='frontend.html'>Desarrollo Frontend</a></li>
+            </ul>
+          </li>
+          <li><a href='creditos.html'>Creditos</a></li>
+        </ul>
+      </nav>
+        <br />
+        <center><b>
+                <h3 class="fuente">Desarrollo web Frontend</h3>
+            </b></center>
+        <br />
+
+        <div style="position: absolute; left: 40px; right: 60px;">
+            <center><img src="imagenes/diseñoweb.jpg" width="450px" height="250px" /></center>
+            <br />
+            <b class="font-conten">¿Qué es el desarrollo front-end?</b>
+            <p class="font-conten">
+                El desarrollo front-end es aquel que da una estructura a los datos que aparecen en una interfaz gráfica,
+                con el objetivo de optimizar la experiencia del usuario. En otras palabras, es el encargado de definir
+                la jerarquía de la información que se visualiza y su distribución: los márgenes, los colores, los
+                recursos audiovisuales, las animaciones, etc. El resultado es lo que todos conocemos como página web.
+
+                Contrariamente a la programación back-end, que se encarga del funcionamiento de las aplicaciones web del
+                lado del servidor, el desarrollo front-end está enfocado en la parte visible de los sitios, con la que
+                interactúa el usuario. Aunque sería un error simplificar esta tecnología como simplemente un utensilio
+                para cuidar la apariencia de una página.
+            </p>
+            <br />
+            <b class="font-conten">Los 3 lenguajes necesarios en el desarrollo front-end</b>
+            <p class="font-conten">
+                El desarrollo front-end requiere de una serie de herramientas imprescindibles para el diseño de una
+                página. Para los que no son expertos en programación, existen plataformas que ayudan a crear un sitio
+                web, como Wordpress o Wix.
+
+                No obstante, el resultado no compite con una interfaz desarrollada por un programador profesional, que
+                hará uso de diferentes lenguajes para optimizar tanto la legibilidad como la performance de la página.
+                Mencionamos los más importantes:
+            </p>
+            <br />
+            <b class="font-conten">HTML</b>
+            <p class="font-conten">
+                Del inglés HyperText Markup Language, el lenguaje creado por Tim Berners-Lee es el estándar más
+                importante a la hora de crear páginas web, siendo el primer formato de publicación en la World Wide Web.
+                HTML permite definir todo el contenido que va a aparecer en la interfaz, desde el texto hasta las
+                imágenes, gráficas, vídeos, etc. Conviene destacar que el objetivo de esta herramienta de desarrollo
+                front-end es que la interpretación del código sea la misma en cualquier navegador.
+            </p>
+            <br />
+            <b class="font-conten">CSS</b>
+            <p class="font-conten">
+                Las Cascading Style Sheets o CSS es el lenguaje de diseño gráfico encargado de definir la apariencia
+                visual de las interfaces escritas en HTML. Si el anterior lenguaje se encargaba del contenido en sí, CSS
+                es la parte del desarrollo front-end que se centra en la forma propiamente dicha: los colores, las
+                fuentes, los fondos, etc.
+            </p>
+            <br />
+            <b class="font-conten">JAVASCRIPT</b>
+            <p class="font-conten">
+                avaScript es el tercer imprescindible en lo relativo al diseño de páginas web. Se trata de un lenguaje
+                de programación interpretado que, en este contexto, ejecuta sus tareas implementado en el navegador.
+                Algunas de sus funciones en desarrollo front-end son la mejora de la animación e interactividad del
+                contenido, la actualización automática sin tener que cargar de nuevo la página o el almacenamiento de
+                datos sobre el comportamiento del usuario (como el tiempo de lectura).
+
+                Para concluir, merece la pena subrayar que el desarrollo front-end es uno de los campos más demandados
+                en el mercado laboral, según el último informe de LinkedIn, siendo además de los que mayor crecimiento
+                están experimentando. La tasa de empleo en este sector es de más del 93% y el trabajo en remoto es muy
+                habitual.
+            </p>
+        </div>
+
+        <div style="position: absolute; left: 40px; right: 60px; top:1250px;">
+            <center><b>
+                    <h3 class="fuente">Cursos de Frontend</h3>
+                </b></center>
+            <br />
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/videoseries?list=PLM-Y_YQmMEqDcV8cJcosRsqJJNrhlpwzb"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            <iframe width="560" height="315" style="position: absolute; right: 8px;"
+                src="https://www.youtube.com/embed/videoseries?list=PL8enlRskAhbKWBJyRhB1rXMxHYPZr7VqS"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <br />
+            <br/>
+            <center>
+                <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/videoseries?list=PLn9Z4h88hbRY11jSWP-5UrZDRiOlMmZae"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            </center>
+            <br />
+            <br />
+        </div>
+
+</body>
+
+</html>
